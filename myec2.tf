@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "my-instance" {
-   ami          = "ami-0729e439b6769d6ab"
+   ami          = "ami-0b152cfd354c4c7a4"
   instance_type = var.instance_type
   tags = {
     Name = "EC2_from_git_Module"
